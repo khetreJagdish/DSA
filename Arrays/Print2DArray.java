@@ -1,3 +1,4 @@
+import java.util.*;
 public class Print2DArray{
 	
 	public static void main(String[] args){
@@ -15,6 +16,11 @@ public class Print2DArray{
 				System.out.print(" "+array2D[i][j]);
 			}
 		}
+		
+		System.out.println();
+		System.out.println("Print Array By Using Arrays.deepToString(arr)");
+		
+		System.out.println(Arrays.deepToString(array2D));
 		
 	}
 	
