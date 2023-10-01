@@ -1,3 +1,5 @@
+
+**Binary Search Algorithm**
 1) Binary Search
 2) Order-Agnostic Binary Search
 3) First and Last Occurences of an element in an Soerted Array
