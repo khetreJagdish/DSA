@@ -1,3 +1,5 @@
+package com.gfg.binarysearch;
+
 /**
 **Intitution :**
 ​

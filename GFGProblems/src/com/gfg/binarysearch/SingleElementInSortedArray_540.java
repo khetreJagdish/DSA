@@ -1,3 +1,5 @@
+package com.gfg.binarysearch;
+
 /**
 # Intitution : 
 ###### if you obesrve an Array carefully All pairs before sigle element (i.e. left elements of Single element) is in (even, odd ) position and all elements which are on right side of an Single element are in (odd,even) position so using this approach . 
