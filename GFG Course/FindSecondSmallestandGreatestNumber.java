@@ -13,12 +13,16 @@ public class FindSecondSmallestandGreatestNumber{
     }
 
     for(int number = 0; number<size;number++){
-      if(){
-        
+      if(a[number] > secondLargest  &&  a[number] != largest){
+         secondLargest = a[number];
+      }
+
+        if(a[number] < secondSmallest  &&  a[number] != smallest){
+         secondSmallest = a[number];
       }
     }
 
-    
+    return new int[] {secondLargest,secondSmallest};
   }
   
 }
