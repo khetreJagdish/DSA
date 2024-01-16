@@ -20,7 +20,7 @@ public class HeadNodeDeleteLinkedList {
     }
 
     public static void main(String[] args) {
-        int[] arr = {2,3,5,6};
+        int[] arr = {2,3,6,8,9};
 
         Node head = new Node(arr[0]);
         Node mover = head;
@@ -33,17 +33,17 @@ public class HeadNodeDeleteLinkedList {
 
         Node previousHead = head;
         System.out.println("Before Deleteion of Head");
+        print(previousHead); 
+        System.out.println();
+        System.out.println("After Deleteion of Head");
+        Node afteDeleteHead =deleteHead(head);
+        print(afteDeleteHead);
+    }
+
+    private static void print(Node previousHead) {
         while(previousHead != null){
             System.out.print(previousHead.data+" ");
             previousHead = previousHead.next;
-        }
-        System.out.println();
-        System.out.println("After Deleteion of Head");
-
-        Node afteDeleteHead =deleteHead(head);
-        while(afteDeleteHead != null){
-            System.out.print(afteDeleteHead.data+" ");
-            afteDeleteHead = afteDeleteHead.next;
         }
     }
 }
