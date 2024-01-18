@@ -28,7 +28,7 @@
 
  
 
-public class DeleteKthElementBasedOnValueInLinkedList
+public class DeleteElementBasedOnValueInLinkedList
 {
     public static Node removeKthNode(Node head, int value)
     {
