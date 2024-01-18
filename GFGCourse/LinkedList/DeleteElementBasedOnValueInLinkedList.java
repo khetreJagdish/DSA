@@ -28,9 +28,9 @@
 
  
 
-public class DeleteKthElementBasedOnValueInLinkedList
+public class DeleteElementBasedOnValueInLinkedList
 {
-    public static Node removeKthNode(Node head, int value)
+    public static Node removeNodeBasedOnValue(Node head, int value)
     {
         // Write your code here
 			
@@ -79,7 +79,7 @@ public class DeleteKthElementBasedOnValueInLinkedList
 	  print(print);
 	  System.out.println();
 		System.out.println("LinkedList after Element Delete ");
-		Node finalHead = removeKthNode(head,1);
+		Node finalHead = removeNodeBasedOnValue(head,1);
 		print(finalHead);
 		
 	}

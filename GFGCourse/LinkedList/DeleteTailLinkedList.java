@@ -45,15 +45,15 @@ public class DeleteTailLinkedList{
 	}
 	
 	static Node deleteTail(Node originalHead){
-		Node head = originalHead;
-		if(head == null || head.next == null){
+		Node temp = originalHead;
+		if(temp == null || temp.next == null){
 			return null;
 		}
-		while(head.next.next != null){
-			head = head.next;
+		while(temp.next.next != null){
+			temp = temp.next;
 		}
 		
-		head.next = null;
+		temp.next = null;
 		return originalHead;
 	}
 
