@@ -3,7 +3,7 @@ package com.takeuforward.doublylinkedlist;
 public class ExecutionClass {
 	
 	public static void main(String[] args){
-		int[] arr = {2,4,5,7,6,9,2,6};
+		int[] arr = {2,4,5,7};
 		
 		Node head = new Node(arr[0]);
 		Node back = head;
@@ -31,6 +31,17 @@ public class ExecutionClass {
 		//print(afterDeleteAtKth);
 		/*===================================*/
 		
+		/*===================================*/
+		//print(head);
+		//Node afterInsertionatHead = InsertNodeAtHead.insertAtHeadOfDLL(head, 10);
+		//print(afterInsertionatHead);
+		/*===================================*/
+		
+		/*===================================*/
+		print(head);
+		Node insertBeforeKthNode = InsertBeforeGivenPositionInLinkedList.insertBeforeGivenPositionInDLL(head, 10, 5);
+		print(insertBeforeKthNode);
+		/*===================================*/
 		
 		
 	}
