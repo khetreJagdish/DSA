@@ -1,14 +1,13 @@
-
 public class InsertBeforeGivenPositionInLinkedList {
 		
 	static Node insertBeforeGivenPositionInDLL(Node head,int element,int pos) {
 		
-		Node temp = head;
+		Node headNode = head;
 		
 		int length = 0;
-		while(temp != null) {
+		while(headNode != null) {
 			length++;
-			temp = temp.next;
+			headNode = headNode.next;
 		}
 		
 		if(pos < 1 || pos > length) {
@@ -23,6 +22,7 @@ public class InsertBeforeGivenPositionInLinkedList {
 		
 		
 		int count = 0;
+		Node temp = head;
 		while(temp != null) {
 			count++;
 			if(count == pos) break;
