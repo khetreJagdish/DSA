@@ -38,11 +38,16 @@ public class ExecutionClass {
 		/*===================================*/
 		
 		/*===================================*/
-		print(head);
-		Node insertBeforeKthNode = InsertBeforeGivenPositionInLinkedList.insertBeforeGivenPositionInDLL(head, 10, 5);
-		print(insertBeforeKthNode);
+		//print(head);
+		//Node insertBeforeKthNode = InsertBeforeGivenPositionInLinkedList.insertBeforeGivenPositionInDLL(head, 10, 1);
+		//print(insertBeforeKthNode);
 		/*===================================*/
 		
+		/*===================================*/
+		print(head);
+		Node reverseDll = ReverseDLL.reverseDLL(head);
+		print(reverseDll);
+		/*===================================*/
 		
 	}
 	
