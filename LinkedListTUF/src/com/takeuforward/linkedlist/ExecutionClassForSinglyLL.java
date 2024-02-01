@@ -14,21 +14,17 @@ public class ExecutionClassForSinglyLL {
 			curr = curr.next;
 		}
 		
-		print(head);
-		Node afterrecuriveReverse =ReverseLinkedListUsingRecursion.reverseLinkedListUsingRecursion(head);
-		print(afterrecuriveReverse);
-		
 		
 		/**********************************
-		 *  
-		 *  
-		 *  
-		 *  
+		 *   print(head);
+		     Node afterrecuriveReverse =ReverseLinkedListUsingRecursion.reverseLinkedListUsingRecursion(head);
+		    print(afterrecuriveReverse);   
 		 */
 		
+		print(head);
+		Node afterIterativeReverse =ReverseLinkedListIterative.reverseLinkedListIteratively(head);
+		print(afterIterativeReverse);
 		
-		
-			
 	}
 	
 	public static void print(Node head) {
