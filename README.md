@@ -1,4 +1,5 @@
-
+IMP :: https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
+https://visualgo.net/en
 **Binary Search Algorithm**
 1) Binary Search
 2) Order-Agnostic Binary Search
