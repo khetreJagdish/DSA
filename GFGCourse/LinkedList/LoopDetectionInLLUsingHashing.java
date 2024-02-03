@@ -19,3 +19,6 @@ public class LoopDetectionInLLUsingHashing {
     return false;
     }
 }
+
+// Time complexity : O(n)
+//Space Complexity : O(n)
