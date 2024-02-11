@@ -3,7 +3,7 @@ package com.takeuforward.linkedlist;
 public class ExecutionClassForSinglyLL {
 	
 	public static void main(String[] args){
-		int[] arr = {1,2,3,4,5};
+		int[] arr = {1,2};
 		
 		Node head = new Node(arr[0]);
 		Node curr = head;
@@ -34,9 +34,15 @@ public class ExecutionClassForSinglyLL {
 		print(afterIterativeReverse);
 		*/
 
+		/*
+		 * print(head); Node afterIterativeReverse
+		 * =RemoveNthNodeFromEndOfLL.removeNthNodeFromEndOfLL(head, 3);
+		 * print(afterIterativeReverse);
+		 */
+		
 		print(head);
-		Node afterIterativeReverse =RemoveNthNodeFromEndOfLL.removeNthNodeFromEndOfLL(head, 3);
-		print(afterIterativeReverse);
+		head = RemoveNthNodeFromEndOfLLUsingSlowFastPointer.removeNthNodeFromEndOfLL(head, 2);
+		print(head);
 	}
 	
 	public static void print(Node head) {
