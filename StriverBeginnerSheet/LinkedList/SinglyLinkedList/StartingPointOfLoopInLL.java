@@ -57,7 +57,8 @@ Initially take two pointers, fast and slow. The fast pointer takes two steps ahe
 We know that if a cycle exists, fast and slow pointers will collide.
 If the cycle does not exist, the fast pointer will move to NULL
 Else, when both slow and fast pointer collides, it detects a cycle exists.
-Take another pointer, say entry. Point to the very first of the linked list.
-Move the slow and the entry pointer ahead by single steps until they collide. 
-Once they collide we get the starting node of the linked list.
+If they collide, move slow or fast pointer to head of LL (Point to the very first of the linked list).
+Lets's consider we have moved slow to head and currently fast is at colliding position.
+Move the slow and the fast pointer simultaneously ahead by single steps until they collide. 
+Once they collide we get the starting node of the linked list. return either slow or fast.
  *****************************************************************/
