@@ -3,7 +3,8 @@ package com.takeuforward.linkedlist;
 public class ExecutionClassForSinglyLL {
 	
 	public static void main(String[] args){
-		int[] arr = {1,2};
+		int[] arr = {1,2,2,1};
+		//int[] arr = {1,3,5,8};
 		
 		Node head = new Node(arr[0]);
 		Node curr = head;
@@ -40,8 +41,15 @@ public class ExecutionClassForSinglyLL {
 		 * print(afterIterativeReverse);
 		 */
 		
+		/*
+		 * print(head); head =
+		 * RemoveNthNodeFromEndOfLLUsingSlowFastPointer.removeNthNodeFromEndOfLL(head,
+		 * 2); print(head);
+		 */
+		
 		print(head);
-		head = RemoveNthNodeFromEndOfLLUsingSlowFastPointer.removeNthNodeFromEndOfLL(head, 2);
+		boolean val = ReverseSinglyLL.isPalindrome(head);
+		System.out.println(val);
 		print(head);
 	}
 	
