@@ -7,9 +7,11 @@
  *     ListNode(int val) { this.val = val; }
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
+
  
  Time Complexity :  O(N1+N2)
  Space Complexity : O(1)
+
  */
 public class Merge2LinkedListOptimized {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
