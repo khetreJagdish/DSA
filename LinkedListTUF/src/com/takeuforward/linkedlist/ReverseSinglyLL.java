@@ -16,6 +16,10 @@ public class ReverseSinglyLL {
             return true;
         }
         Node temp = head;
+        findTheMiddle(temp);
+        
+        
+        
         Node head2 = head;
         Node head1 =  reverse(temp);
        // head = head1;
@@ -32,7 +36,19 @@ public class ReverseSinglyLL {
         
     }
 
-    public static Node reverse(Node head){
+    private static Node findTheMiddle(Node temp) {
+		Node slow = temp;
+		Node fast = temp;
+		
+		while(fast != null && fast.next != null) {
+			slow = slow.next;
+			fast = fast.next.next;
+		}
+		return slow;
+		
+	}
+
+	public static Node reverse(Node head){
     	Node temp = head;
     	Node prev = null;
 
