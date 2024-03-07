@@ -8,7 +8,7 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-public class ReverseLinkedListToRightByKPosition {
+public class RotateLinkedListToRightByKPosition {
     public ListNode rotateRight(ListNode head, int k) {
         
         if(head == null || head.next ==null){
