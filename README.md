@@ -33,3 +33,7 @@ IMP ::1)  https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
 18) Add 1 to a number represented by LL
 19) Find the intersection point of Y LL
 20) Merge two sorted Lists
+
+**Sliding Window**
+1) Maximum Sum Subarray of Size K
+2) First Negative number in every window of size K
