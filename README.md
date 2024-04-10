@@ -37,3 +37,5 @@ IMP ::1)  https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
 **Sliding Window**
 1) Maximum Sum Subarray of Size K
 2) First Negative number in every window of size K
+3) Longest Substring Without Repeating Characters
+4) Max Consecutive Ones III
