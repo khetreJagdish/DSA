@@ -9,11 +9,11 @@ public class LengthOfLongestSubstring_3_BetterUsingSet {
         while(right < length){
             if(set.contains(s.charAt(right))){
 				// if found then remove from left till below condition satisfies
+		
                 while(left < right && set.contains(s.charAt(right))){
                     set.remove(s.charAt(left));
                     left++;
                 }
-
             }
             maxLength = Math.max(maxLength,right-left+1);
             set.add(s.charAt(right));
