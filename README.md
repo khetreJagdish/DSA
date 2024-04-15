@@ -39,3 +39,6 @@ IMP ::1)  https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
 2) First Negative number in every window of size K
 3) Longest Substring Without Repeating Characters
 4) Max Consecutive Ones III
+5) Fruit into Baskets
+6) Longest repeating character replacement
+7) Binary subarray with sum
