@@ -42,3 +42,6 @@ IMP ::1)  https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
 5) Fruit into Baskets
 6) Longest repeating character replacement
 7) Binary subarray with sum
+8) Number of substring containing all three characters
+9) Maximum point you can obtain from cards
+10) Longest Substring with At Most K Distinct Characters
