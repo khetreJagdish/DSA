@@ -12,6 +12,10 @@ class Point implements Comparable<Point> {
 		return this.x -p.x; 
 	}
 
+	public String toString(){
+		return "["+x+" "+y+"]";
+	}
+
 }
 
 public class ArraySortUtil{
