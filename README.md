@@ -45,3 +45,4 @@ IMP ::1)  https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
 8) Number of substring containing all three characters
 9) Maximum point you can obtain from cards
 10) Longest Substring with At Most K Distinct Characters
+11) Subarray with k different integers
