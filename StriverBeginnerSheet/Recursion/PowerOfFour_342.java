@@ -1,4 +1,4 @@
-public class PowerOfFour {
+public class PowerOfFour_342 {
     public boolean isPowerOfFour(int n) {
 
         if (n <= 0) {
