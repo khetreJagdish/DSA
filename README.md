@@ -1,5 +1,8 @@
-IMP ::1)  https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
-      2) https://visualgo.net/en
+IMP   
+      1) https://www.cs.usfca.edu/~galles/visualization/Algorithms.html  
+      2) https://visualgo.net/en  
+      3) https://www.recursionvisualizer.com/  
+      
 
       
 **Binary Search Algorithm**
@@ -46,3 +49,22 @@ IMP ::1)  https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
 9) Maximum point you can obtain from cards
 10) Longest Substring with At Most K Distinct Characters
 11) Subarray with k different integers
+
+**Recursion**
+1) Fibonacci Series
+2) Permutation
+3) PowerOfFour_342
+   
+**4) PrintCountOfSubsequencesWithSumK**
+
+![image](https://github.com/khetreJagdish/DSA/assets/30476034/3f932033-0d66-4aa5-b4b3-2a7431d34cbe)
+
+**5) Print All Subset**
+
+   ![image](https://github.com/khetreJagdish/DSA/assets/30476034/88361300-5b93-41e8-96ff-01558d014351)
+
+6) PrintSingleSubsequencesWithSumK
+7) ReverseArrayUsingRecursion
+8) ReverseStringUsingRecursion
+
+
