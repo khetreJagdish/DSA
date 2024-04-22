@@ -1,6 +1,6 @@
 package com.array;
 // Dutch National Flag Algorithm
-public class SortColoursDutchNationalFlagAlgo {
+public class SortColoursDutchNationalFlagAlgo_75 {
 	public static void sortColors(int[] nums) {
 		int low = 0;
 		int mid = 0;

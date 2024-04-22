@@ -1,5 +1,5 @@
 // Use Boyer–Moore majority vote algorithm
-public class MajorityElement {
+public class MajorityElement_169 {
     public int majorityElement(int[] nums) {
         
         int majorityElement  = -1;
