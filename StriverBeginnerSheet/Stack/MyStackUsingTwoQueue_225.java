@@ -1,3 +1,20 @@
+/**
+Push Operation:
+
+    Simply enqueue the new element into the first queue (queue1).
+
+Pop Operation:
+
+    Transfer all elements from queue1 to queue2 except for the last element.
+    Dequeue and return the last element from queue1, which is the top of the stack.
+    Swap the names of queue1 and queue2.
+	
+Top Operation
+	Same as pop  just pop the last element and then again push to queue and swap names.
+
+*/
+
+
 public class MyStackUsingTwoQueue {
 
     Queue<Integer> q1 ;
