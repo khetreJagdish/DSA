@@ -19,7 +19,7 @@ public class MyStackUsingTwoQueue {
 
     Queue<Integer> q1 ;
     Queue<Integer> q2 ;
-    public MyStack() {
+    public MyStackUsingTwoQueue() {
         q1 = new LinkedList<>();
         q2 = new LinkedList<>();
     }
