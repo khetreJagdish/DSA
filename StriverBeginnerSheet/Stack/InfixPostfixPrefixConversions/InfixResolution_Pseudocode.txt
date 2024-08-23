@@ -1,0 +1,66 @@
+START
+
+SET expression = "4-5+3*4/6"
+
+INITIALIZE valStack as empty stack (to hold values)
+INITIALIZE operatorStack as empty stack (to hold operators)
+
+FOR each character (ch) in expression:
+    IF ch is a digit:
+        PUSH (ch - '0') into valStack
+
+    ELSE IF operatorStack is empty:
+        PUSH ch into operatorStack
+
+    ELSE:
+        IF ch is '+' or '-':
+            POP two values (value1 and value2) from valStack
+            SET operatorTop = top element of operatorStack
+
+            IF operatorTop is '+':
+                PUSH (value1 + value2) into valStack
+            ELSE IF operatorTop is '-':
+                PUSH (value1 - value2) into valStack
+            ELSE IF operatorTop is '*':
+                PUSH (value1 * value2) into valStack
+            ELSE IF operatorTop is '/':
+                PUSH (value1 / value2) into valStack
+
+            POP top element from operatorStack
+            PUSH ch into operatorStack
+
+        ELSE IF ch is '*' or '/':
+            IF top of operatorStack is '*' or '/':
+                POP two values (value1 and value2) from valStack
+                SET operatorTop = top element of operatorStack
+
+                IF operatorTop is '*':
+                    PUSH (value1 * value2) into valStack
+                ELSE IF operatorTop is '/':
+                    PUSH (value1 / value2) into valStack
+
+                POP top element from operatorStack
+                PUSH ch into operatorStack
+            ELSE:
+                PUSH ch into operatorStack
+
+END FOR
+
+WHILE valStack has more than 1 element:
+    POP two values (value1 and value2) from valStack
+    SET operatorTop = top element of operatorStack
+
+    IF operatorTop is '+':
+        PUSH (value1 + value2) into valStack
+    ELSE IF operatorTop is '-':
+        PUSH (value1 - value2) into valStack
+    ELSE IF operatorTop is '*':
+        PUSH (value1 * value2) into valStack
+    ELSE IF operatorTop is '/':
+        PUSH (value1 / value2) into valStack
+
+    POP top element from operatorStack
+
+PRINT top element of valStack (final result)
+
+END
